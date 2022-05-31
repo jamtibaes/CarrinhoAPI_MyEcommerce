@@ -17,6 +17,7 @@ public class CartEntity {
     @Field
     private List<ItemsEntity> productList = new ArrayList<>();
 
+
     public String getId() {
         return id;
     }
@@ -32,4 +33,5 @@ public class CartEntity {
     public void setProductList(List<ItemsEntity> productList) {
         this.productList = productList;
     }
+
 }

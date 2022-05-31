@@ -17,4 +17,6 @@ public class ProductToCartRequest {
     public Integer getQuantity() {
         return quantity;
     }
+
+
 }
